@@ -8,7 +8,8 @@
 
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-	<script src="js/modernizr.js"></script>
+	<script src="js/core/jquery-3.6.0.min.js"></script>
+	<script src="js/core/modernizr.js"></script>
   	
 	<title>RBDev Components - Pricing Table</title>
 </head>

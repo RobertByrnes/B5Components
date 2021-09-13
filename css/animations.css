@@ -233,7 +233,7 @@
 }
 /* Pseudo elements for icons */
 .btn-nbs:before ,
-.btn-nbs:before {
+.btn-nbs-sm:before {
     font-family: 'FontAwesome';
     font-style: normal;
     font-weight: normal;
