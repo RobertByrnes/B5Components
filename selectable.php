@@ -15,33 +15,37 @@
     .pointer {
         cursor: pointer;
     }
+    .laquo, .raquo {
+        font-size: 25px !important;
+        font-style: bold;
+    }
 </style>
 
 <div class="container-fluid mt-0">
     <div class="row">
 
         <div class="col-md-5 p-3 bg-light offset-md-1 wiggle-sm">
-            <ol class="selectable">
+            <ul class="sortable selectable">
                 <ul class="list-group shadow-lg item-drop">
-                    <li class="list-group-item bg-sand pointer" item-id="">Card 1</li>
+                    <li class="list-group-item bg-sand pop pointer" item-id="">Card 1</li>
                 </ul>
                 <ul class="list-group shadow-lg item-drop">
-                    <li class="list-group-item bg-sand pointer" item-id="">Card 2</li>
+                    <li class="list-group-item bg-sand pop pointer" item-id="">Card 2</li>
                 </ul>
                 <ul class="list-group shadow-lg item-drop">
-                    <li class="list-group-item bg-sand pointer" item-id="">Card 3</li>
+                    <li class="list-group-item bg-sand pop pointer" item-id="">Card 3</li>
                 </ul>
                 <ul class="list-group shadow-lg item-drop">
-                    <li class="list-group-item bg-sand pointer" item-id="">Card 4</li>
+                    <li class="list-group-item bg-sand pop pointer" item-id="">Card 4</li>
                 </ul>
                 <ul class="list-group shadow-lg item-drop">
-                    <li class="list-group-item bg-sand pointer" item-id="">Card 5</li>
+                    <li class="list-group-item bg-sand pop pointer" item-id="">Card 5</li>
                 </ul>
-            </ol>
+            </ul>
         </div>
 
         <div class="col-md-5 p-3 bg-light shadow-lg complete-item">
-            <ul class="selectable">
+            <ul class="sorted selectable">
                 <ul class="list-group dropped-item">
                     <li class="list-group-item bg-desert shrink-less pointer" item-id="">Card 6</li>
                 </ul>
@@ -52,15 +56,15 @@
         </div>
     </div>
 
-    <div class="col-12 d-flex mx-auto mt-2">
-        <ul class="pagination clearfix col-md-12">
+    <div class="row mt-5">
+        <ul class="pagination pagination-lg justify-content-center">
             <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
+                <a class="page-link bg-cool" href="#" aria-label="Previous">
+                    <span class="laquo text-navy" aria-hidden="true"><<</span>
                 </a>
             <li class="page-item">
-                <a class="page-link" href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
+                <a class="page-link bg-cool" href="#" aria-label="Next">
+                    <span class="raquo text-navy" aria-hidden="true">>></span>
                 </a>
             </li>
         </ul>
@@ -70,6 +74,15 @@
 <script>
     $(function() {
         $('.selectable').selectable();
+    });
+
+    $('.page-link').on('click', function() {
+        let selection = $('.ui-selected').detach();
+        if ($(this).children('span').hasClass('raquo')) {
+            selection.appendTo('.sorted').removeClass('ui-selected bg-sand').addClass('bg-desert shrink-less');
+        } else {
+            selection.appendTo('.sortable').removeClass('ui-selected bg-desert shrink-less').addClass('bg-sand pop');
+        }
     });
 </script>
 
