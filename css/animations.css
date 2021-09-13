@@ -1,0 +1,223 @@
+/* Card Movement on Hover */
+.pop {
+    transition: all 0.2s ease;
+    cursor: pointer
+}
+.pop:hover {
+    transform: scale(1.01);
+}
+/* Similar to pop just more */
+.grow-10:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.grow-20:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.grow-30:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+/* Opposite to grow */
+.shrink-less:hover {
+    -webkit-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    transform: scale(0.97);
+}
+.shrink:hover {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+.shrink-more:hover {
+    -webkit-transform: scale(0.93);
+    -ms-transform: scale(0.93);
+    transform: scale(0.93);
+}
+/* Change to cirle on hover */
+.circle:hover {
+    border-radius:50%;
+}
+/* Simple Fade */
+.fade-less {
+    opacity:0.1;
+}
+.fade {
+    opacity:0.5;
+}
+.fade-more {
+    opacity:0.8;
+}
+.fade:hover,
+.fade-less:hover,
+.fade-more:hover {
+    opacity:1;
+}
+
+/* Loading Spinner */
+/* Keyframe */
+.loading {
+    width:40px;
+    height:40px;
+    border:4px solid #fcd779;
+    border-top:4px solid white;
+    border-radius:50%;
+    position:absolute;
+    top:80px;
+    margin-left:-24px;
+    left:25%;
+    transition-duration: 1.2s;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1.2s;
+    -webkit-animation-name: rotate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-transition-property: -moz-transform;
+    -moz-animation-name: rotate; 
+    -moz-animation-duration: 1.2s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    transition-property: transform;
+    animation-name: rotate; 
+    animation-duration: 1.2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/* Wobble an element */
+/* Keyframe */
+.wiggle {
+    animation: wiggle 2s linear;
+    animation-iteration-count: 2;
+}
+.wiggle-sm {
+    animation: wiggle-sm 1.6s linear;
+    animation-iteration-count: 2;
+}
+/* Shake from side to side */
+/* Keyframe */
+.swing:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+  
+/* Keyframes */
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+}
+@keyframes wiggle-sm {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-3deg);
+    }
+    20% {
+      transform: rotateZ(3deg);
+    }
+    25% {
+      transform: rotateZ(-2deg);
+    }
+    30% {
+      transform: rotateZ(2deg);
+    }
+    35% {
+      transform: rotateZ(-1deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+}
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+@-webkit-keyframes swing
+{
+    15% {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30% {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65% {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15% {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30% {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65% {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
