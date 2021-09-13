@@ -17,8 +17,8 @@
                     ...
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-neptune" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-mars">Understood</button>
+                    <button type="button" class="btn btn-mars" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-jade">Understood</button>
                 </div>
             </div>
         </div>

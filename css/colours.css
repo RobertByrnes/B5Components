@@ -1,385 +1,385 @@
 /* UI Colour Schemes with Bootstrap style class names for background, text and elements like btn */
 /* General */
 .bg-muted {
-    background-color: #e5e7e7;
+    background-color: #e5e7e7 !important;
 }
 /* Scheme 1 */
 /* Backgrounds */
 .bg-mars {
-    background-color: #e27d60;
+    background-color: #e27d60 !important;
 }
 .bg-neptune {
-    background-color: #85d3cb;
+    background-color: #85d3cb !important;
 }
 .bg-mercury {
-    background-color: #e8a87a;
+    background-color: #e8a87a !important;
 }
 .bg-saturn {
-    background-color: #c38d9e;
+    background-color: #c38d9e !important;
 }
 .bg-uranus {
-    background-color: #41b3a3;
+    background-color: #41b3a3 !important;
 }
 /* Foregrounds */
 .text-mars {
-    color: #e27d60;
+    color: #e27d60 !important;
 }
 .text-neptune {
-    color: #85d3cb;
+    color: #85d3cb !important;
 }
 .text-mercury {
-    color: #e8a87a;
+    color: #e8a87a !important;
 }
 .text-saturn {
-    color: #c38d9e;
+    color: #c38d9e !important;
 }
 .text-uranus {
-    color: #41b3a3;
+    color: #41b3a3 !important;
 }
 /* Buttons */
 .btn-mars {
-    background-color: #e27d60;
-    border-color: #e27d60;
+    background-color: #e27d60 !important;
+    border-color: #e27d60 !important;
 }
 .btn-neptune {
-    background-color: #85d3cb;
-    border-color: #85d3cb;
+    background-color: #85d3cb !important;
+    border-color: #85d3cb !important;
 }
 .btn-mercury {
-    background-color: #e8a87a;
-    border-color: #e8a87a;
+    background-color: #e8a87a !important;
+    border-color: #e8a87a !important;
 }
 .btn-saturn {
-    background-color: #c38d9e;
-    border-color: #c38d9e;
+    background-color: #c38d9e !important;
+    border-color: #c38d9e !important;
 }
 .btn-uranus {
-    background-color: #41b3a3;
-    border-color: #41b3a3;
+    background-color: #41b3a3 !important;
+    border-color: #41b3a3 !important;
 }
 /* Scheme 2 */
 /* Backgrounds */
 .bg-steel {
-    background-color: #2c3531;
+    background-color: #2c3531 !important;
 }
 .bg-sapphire {
-    background-color: #116466;
+    background-color: #116466 !important;
 }
 .bg-tan {
-    background-color: #d9b08c;
+    background-color: #d9b08c !important;
 }
 .bg-peach {
-    background-color: #ffcb9a;
+    background-color: #ffcb9a !important;
 }
 .bg-platinum {
-    background-color: #d1e8e2;
+    background-color: #d1e8e2 !important;
 }
 /* Foregrounds */
 .text-steel {
-    color: #2c3531;
+    color: #2c3531 !important;
 }
 .text-sapphire {
-    color: #116466;
+    color: #116466 !important;
 }
 .text-tan {
-    color: #d9b08c;
+    color: #d9b08c !important;
 }
 .text-peach {
-    color: #ffcb9a;
+    color: #ffcb9a !important;
 }
 .text-platinum {
-    color: #d1e8e2;
+    color: #d1e8e2 !important;
 }
 /* Buttons */
 .btn-steel {
-    background-color: #2c3531;
-    border-color: #2c3531;
+    background-color: #2c3531 !important;
+    border-color: #2c3531 !important;
 }
 .btn-sapphire {
-    background-color: #116466;
-    border-color: #116466;
+    background-color: #116466 !important;
+    border-color: #116466 !important;
 }
 .btn-tan {
-    background-color: #d9b08c;
-    border-color: #d9b08c;
+    background-color: #d9b08c !important;
+    border-color: #d9b08c !important;
 }
 .btn-peach {
-    background-color: #ffcb9a;
-    border-color: #ffcb9a;
+    background-color: #ffcb9a !important;
+    border-color: #ffcb9a !important;
 }
 .btn-platinum {
-    background-color: #d1e8e2;
-    border-color: #d1e8e2;
+    background-color: #d1e8e2 !important;
+    border-color: #d1e8e2 !important;
 }
 /* Scheme 3 */
 /* Backgrounds */
 .bg-night {
-    background-color: #272727;
+    background-color: #272727 !important;
 }
 .bg-dusk {
-    background-color: #747474;
+    background-color: #747474 !important;
 }
 .bg-seville {
-    background-color: #ff652f;
+    background-color: #ff652f !important;
 }
 .bg-vivid {
-    background-color: #ffe400;
+    background-color: #ffe400 !important;
 }
 .bg-jade {
-    background-color: #14a76c;
+    background-color: #14a76c !important;
 }
 /* Foregrounds */
 .text-night {
-    color: #272727;
+    color: #272727 !important;
 }
 .text-dusk {
-    color: #747474;
+    color: #747474 !important;
 }
 .text-seville {
-    color: #ff652f;
+    color: #ff652f !important;
 }
 .text-vivid {
-    color: #ffe400;
+    color: #ffe400 !important;
 }
 .text-jade {
-    color: #14a76c;
+    color: #14a76c !important;
 }
 /* Buttons */
 .btn-night {
-    background-color: #272727;
-    border-color: #272727;
+    background-color: #272727 !important;
+    border-color: #272727 !important;
 }
 .btn-dusk {
-    background-color: #747474;
-    border-color: #747474;
+    background-color: #747474 !important;
+    border-color: #747474 !important;
 }
 .btn-seville {
-    background-color: #ff652f;
-    border-color: #ff652f;
+    background-color: #ff652f !important;
+    border-color: #ff652f !important;
 }
 .btn-vivid {
-    background-color: #ffe400;
-    border-color: #ffe400;
+    background-color: #ffe400 !important;
+    border-color: #ffe400 !important;
 }
 .btn-jade {
-    background-color: #14a76c;
-    border-color: #14a76c;
+    background-color: #14a76c !important;
+    border-color: #14a76c !important;
 }
 /* Scheme 4 */
 /* Backgrounds */
 .bg-eggshell {
-    background-color: #eae7dc;
+    background-color: #eae7dc !important;
 }
 .bg-caffe {
-    background-color: #d8c3a5;
+    background-color: #d8c3a5 !important;
 }
 .bg-taupe {
-    background-color: #8e8d8a;
+    background-color: #8e8d8a !important;
 }
 .bg-sauce {
-    background-color: #e98074;
+    background-color: #e98074 !important;
 }
 .bg-beans {
-    background-color: #e85a4f;
+    background-color: #e85a4f !important;
 }
 /* Foregrounds */
 .text-eggshell {
-    color: #eae7dc;
+    color: #eae7dc !important;
 }
 .text-caffe {
-    color: #d8c3a5;
+    color: #d8c3a5 !important;
 }
 .text-taupe {
-    color: #8e8d8a;
+    color: #8e8d8a !important;
 }
 .text-sauce {
-    color: #e98074;
+    color: #e98074 !important;
 }
 .text-beans {
-    color: #e85a4f;
+    color: #e85a4f !important;
 }
 /* Buttons */
 .btn-eggshell {
-    background-color: #eae7dc;
-    border-color: #eae7dc;
+    background-color: #eae7dc !important;
+    border-color: #eae7dc !important;
 }
 .btn-caffe {
-    background-color: #d8c3a5;
-    border-color: #d8c3a5;
+    background-color: #d8c3a5 !important;
+    border-color: #d8c3a5 !important;
 }
 .btn-taupe {
-    background-color: #8e8d8a;
-    border-color: #8e8d8a;
+    background-color: #8e8d8a !important;
+    border-color: #8e8d8a !important;
 }
 .btn-sauce {
-    background-color: #e98074;
-    border-color: #e98074;
+    background-color: #e98074 !important;
+    border-color: #e98074 !important;
 }
 .btn-beans {
-    background-color: #e85a4f;
-    border-color: #e85a4f;
+    background-color: #e85a4f !important;
+    border-color: #e85a4f !important;
 }
 /* Scheme 5 */
 /* Backgrounds */
 .bg-sand {
-    background-color: #fbe8a6;
+    background-color: #fbe8a6 !important;
 }
 .bg-desert {
-    background-color: #f4976c;
+    background-color: #f4976c !important;
 }
 .bg-navy {
-    background-color: #303c6c;
+    background-color: #303c6c !important;
 }
 .bg-cool {
-    background-color: #b4dfe5;
+    background-color: #b4dfe5 !important;
 }
 .bg-glacier {
-    background-color: #d2fdff;
+    background-color: #d2fdff !important;
 }
 /* Foregrounds */
 .text-sand {
-    color: #fbe8a6;
+    color: #fbe8a6 !important;
 }
 .text-desert {
-    color: #f4976c;
+    color: #f4976c !important;
 }
 .text-navy {
-    color: #303c6c;
+    color: #303c6c !important;
 }
 .text-cool {
-    color: #b4dfe5;
+    color: #b4dfe5 !important;
 }
 .text-glacier {
-    color: #d2fdff;
+    color: #d2fdff !important;
 }
 /* Buttons */
 .btn-sand {
-    background-color: #fbe8a6;
-    border-color: #fbe8a6;
+    background-color: #fbe8a6 !important;
+    border-color: #fbe8a6 !important;
 }
 .btn-desert {
-    background-color: #f4976c;
-    border-color: #f4976c;
+    background-color: #f4976c !important;
+    border-color: #f4976c !important;
 }
 .btn-navy {
-    background-color: #303c6c;
-    border-color: #303c6c;
+    background-color: #303c6c !important;
+    border-color: #303c6c !important;
 }
 .btn-cool {
-    background-color: #b4dfe5;
-    border-color: #b4dfe5;
+    background-color: #b4dfe5 !important;
+    border-color: #b4dfe5 !important;
 }
 .btn-glacier {
-    background-color: #d2fdff;
-    border-color: #d2fdff;
+    background-color: #d2fdff !important;
+    border-color: #d2fdff !important;
 }
 /* Scheme 6 */
 /* Backgrounds */
 .bg-burg {
-    background-color: #501f3a;
+    background-color: #501f3a !important;
 }
 .bg-crimson {
-    background-color: #cb2d6f;
+    background-color: #cb2d6f !important;
 }
 .bg-concrete {
-    background-color: #cccccc;
+    background-color: #cccccc !important;
 }
 .bg-viridian {
-    background-color: #14a098;
+    background-color: #14a098 !important;
 }
 .bg-coal {
-    background-color: #0f292f;
+    background-color: #0f292f !important;
 }
 /* Foregrounds */
 .text-burg {
-    color: #501f3a;
+    color: #501f3a !important;
 }
 .text-crimson {
-    color: #cb2d6f;
+    color: #cb2d6f !important;
 }
 .text-concrete {
-    color: #cccccc;
+    color: #cccccc !important;
 }
 .text-viridian {
-    color: #14a098;
+    color: #14a098 !important;
 }
 .text-coal {
-    color: #0f292f;
+    color: #0f292f !important;
 }
 /* Buttons */
 .btn-burg {
-    background-color: #501f3a;
-    border-color: #501f3a;
+    background-color: #501f3a !important;
+    border-color: #501f3a !important;
 }
 .btn-crimson {
-    background-color: #cb2d6f;
-    border-color: #cb2d6f;
+    background-color: #cb2d6f !important;
+    border-color: #cb2d6f !important;
 }
 .btn-concrete {
-    background-color: #cccccc;
-    border-color: #cccccc;
+    background-color: #cccccc !important;
+    border-color: #cccccc !important;
 }
 .btn-viridian {
-    background-color: #14a098;
-    border-color: #14a098;
+    background-color: #14a098 !important;
+    border-color: #14a098 !important;
 }
 .btn-coal {
-    background-color: #0f292f;
-    border-color: #0f292f;
+    background-color: #0f292f !important;
+    border-color: #0f292f !important;
 }
 /* Scheme 7 */
 /* Backgrounds */
 .bg-orchid {
-    background-color: #a64ac9;
+    background-color: #a64ac9 !important;
 }
 .bg-tangerine {
-    background-color: #fccd04;
+    background-color: #fccd04 !important;
 }
 .bg-blush {
-    background-color: #ffb48f;
+    background-color: #ffb48f !important;
 }
 .bg-latte {
-    background-color: #f5e6cc;
+    background-color: #f5e6cc !important;
 }
 .bg-turquoise {
-    background-color: #17e9e0;
+    background-color: #17e9e0 !important;
 }
 /* Foregrounds */
 .text-orchid {
-    color: #a64ac9;
+    color: #a64ac9 !important;
 }
 .text-tangerine {
-    color: #fccd04;
+    color: #fccd04 !important;
 }
 .text-blush {
-    color: #ffb48f;
+    color: #ffb48f !important;
 }
 .text-latte {
-    color: #f5e6cc;
+    color: #f5e6cc !important;
 }
 .text-turquoise {
-    color: #17e9e0;
+    color: #17e9e0 !important;
 }
 /* Buttons */
 .btn-orchid {
-    background-color: #a64ac9;
-    border-color: #a64ac9;
+    background-color: #a64ac9 !important;
+    border-color: #a64ac9 !important;
 }
 .btn-tangerine {
-    background-color: #fccd04;
-    border-color: #fccd04;
+    background-color: #fccd04 !important;
+    border-color: #fccd04 !important;
 }
 .btn-blush {
-    background-color: #ffb48f;
-    border-color: #ffb48f;
+    background-color: #ffb48f !important;
+    border-color: #ffb48f !important;
 }
 .btn-latte {
-    background-color: #f5e6cc;
-    border-color: #f5e6cc;
+    background-color: #f5e6cc !important;
+    border-color: #f5e6cc !important;
 }
 .btn-turquoise {
-    background-color: #17e9e0;
-    border-color: #17e9e0;
+    background-color: #17e9e0 !important;
+    border-color: #17e9e0 !important;
 }
 /* Button Text Colours */
 .btn-mars, .btn-mars:hover,
@@ -407,20 +407,20 @@
 .btn-viridian, .btn-viridian:hover,
 .btn-orchid, .btn-orchid:hover,
 .btn-blush, .btn-blush:hover,
-.btn-tangerine {
-    color: #ffffff;
+.btn-caffe, .btn-caffe:hover,
+.btn-tangerine, .btn-tangerine:hover {
+    color: #ffffff !important;
 }
 .btn-peach, .btn-peach:hover,
 .btn-platinum, .btn-platinum:hover,
 .btn-eggshell, .btn-eggshell:hover,
-.btn-caffe, .btn-caffe:hover,
 .btn-sand, .btn-sand:hover,
 .btn-cool, .btn-cool:hover,
 .btn-glacier, .btn-glacier:hover,
 .btn-concrete, .btn-concrete:hover,
 .btn-latte, .btn-latte:hover,
 .btn-turquoise, .btn-turquoise:hover {
-    color: #2c3531;
+    color: #2c3531 !important;
 }
 
 
