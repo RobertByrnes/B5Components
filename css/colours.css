@@ -2,6 +2,64 @@
 /* General */
 .bg-muted {
     background-color: #e5e7e7 !important;
+}/* Scheme 1 */
+/* Backgrounds */
+.bg-ocean {
+    background-color: #3670b4 !important;
+}
+.bg-fuschia {
+    background-color: #d33a98 !important;
+}
+.bg-grape {
+    background-color: #6b72cf !important;
+}
+.bg-lemon {
+    background-color: #ccd135 !important;
+}
+.bg-spruce {
+    background-color: #32c251 !important;
+}
+/* Foregrounds */
+.text-ocean {
+    color: #3670b4 !important;
+}
+.text-fuschia {
+    color: #d33a98 !important;
+}
+.text-grape {
+    color: #6b72cf !important;
+}
+.text-lemon {
+    color: #ccd135 !important;
+}
+.text-spruce {
+    color: #32c251 !important;
+}
+/* Buttons */
+.btn-ocean {
+    color: #fff !important;
+    background-color: #3670b4 !important;
+    border-color: #3670b4 !important;
+}
+.btn-fuschia {
+    color: #fff !important;
+    background-color: #d33a98 !important;
+    border-color: #d33a98 !important;
+}
+.btn-grape {
+    color: #fff !important;
+    background-color: #6b72cf !important;
+    border-color: #6b72cf !important;
+}
+.btn-lemon {
+    color: #fff !important;
+    background-color: #ccd135 !important;
+    border-color: #ccd135 !important;
+}
+.btn-spruce {
+    color: #fff !important;
+    background-color: #32c251 !important;
+    border-color: #32c251 !important;
 }
 /* Scheme 1 */
 /* Backgrounds */

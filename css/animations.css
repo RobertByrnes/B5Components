@@ -1,3 +1,29 @@
+html, body {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: -webkit-gradient(linear, 0 0, 100% 100%, from(#e5e7e7), to(#dbd9d9));
+    background: -webkit-linear-gradient(top left, #e5e7e7, #dbd9d9);
+    background: -moz-linear-gradient(top left, #e5e7e7, #dbd9d9);
+    background: -o-linear-gradient(top left, #e5e7e7, #dbd9d9);
+    background: -ms-linear-gradient(top left, #e5e7e7, #dbd9d9);
+    background: linear-gradient(to bottom right, #e5e7e7, #dbd9d9);
+}
+html:hover, body:hover {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: -webkit-gradient(linear, 0 0, 100% 100%, from(#dbd9d9), to(#e5e7e7));
+    background: -webkit-linear-gradient(top left, #dbd9d9, #e5e7e7);
+    background: -moz-linear-gradient(top left, #dbd9d9, #e5e7e7);
+    background: -o-linear-gradient(top left, #dbd9d9, #e5e7e7);
+    background: -ms-linear-gradient(top left, #dbd9d9, #e5e7e7);
+    background: linear-gradient(to bottom right, #dbd9d9, #e5e7e7);
+}
 /* Card Movement on Hover */
 .pop {
     transition: all 0.2s ease;
@@ -104,7 +130,25 @@
 }
 /* Shake from side to side */
 /* Keyframe */
-.swing:hover {
+.swing-less-hover:hover {
+    -webkit-animation: swing-less 1s ease;
+    animation: swing-less 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+.swing-less {
+    -webkit-animation: swing-less 1s ease;
+    animation: swing-less 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+.swing-hover:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+.swing {
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;
@@ -347,6 +391,60 @@
     80% {
         -webkit-transform: translateX(2px);
         transform: translateX(2px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes swing-less
+{
+    15% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    30% {
+        -webkit-transform: translateX(-3px);
+       transform: translateX(-3px);
+    } 
+    50% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    65% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
+    }
+    80% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing-less
+{
+    15% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    30% {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    50% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    65% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
+    }
+    80% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
     }
     100% {
         -webkit-transform: translateX(0);
