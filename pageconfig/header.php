@@ -19,4 +19,5 @@
 </head>
 
 <body class="bg-muted">
-	<div id="fade-wrapper"></div>
+	<div id="wrapper">
+		<div id="page">

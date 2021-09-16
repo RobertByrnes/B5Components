@@ -78,12 +78,13 @@
 </div>
 
 <script>
-    $(document).ready(function(){
-        $('#load').click(function(){
-            $('#fade-wrapper').fadeIn();
+    $(document).ready(function() {
+        $('#load').click(function() {
+            $(document).find('#wrapper').addClass("overlay");
+            return false;
         });
-        $('#fade-wrapper').click(function(){
-            $(this).fadeOut();
+        $('#wrapper').click(function() {
+            $('#wrapper').removeClass('overlay');
         });
     });
 </script>
