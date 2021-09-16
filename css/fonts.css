@@ -1,0 +1,48 @@
+.trocchi {
+    font-family: 'Trocchi', serif;
+    font-size: 27px;
+    font-weight: normal;
+    padding-top: 1rem;
+}
+.vibes {
+    font-family: "Great Vibes", cursive;
+    font-size: 25px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px #fff;
+    padding-top: 0.1rem;
+}
+/* number-badge for <= 3 digits */
+/* number-badge-7 for <= 7 digits */  
+.number-badge,
+.number-badge-4,
+.number-badge-7 {
+    cursor: default;
+    margin-right: 0.8rem;
+    font-size: 25px;
+    border-radius: 50%;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    padding-top: 0.6rem;
+    text-align: center;
+    display: inline-block;
+    -webkit-box-shadow: inset 0 0 5px #fff;
+    -moz-box-shadow: inset 0 0 5px #fff;
+    box-shadow: inset 0 0 5px #fff;
+}
+.number-badge-4 {
+    border-radius: 15% !important;
+    width: 65px !important;
+}
+.number-badge-7 {
+    border-radius: 15% !important;
+    width: 100px !important;
+}
+.number-badge:hover,
+.number-badge-4:hover,
+.number-badge-7:hover  {
+    top: 1px !important;
+    -webkit-box-shadow: inset 0 0 7px #fff !important;
+    -moz-box-shadow: inset 0 0 7px #fff !important;
+    box-shadow: inset 0 0 7px #fff !important;
+}

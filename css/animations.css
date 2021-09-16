@@ -241,7 +241,8 @@ html:hover, body:hover {
 }
 .top:active {
     top: 2px;
-}        
+}       
+/* Button Style */ 
 .btn-nbs,
 .btn-nbs-sm {
     border: none;

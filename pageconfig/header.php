@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/colours.css">
 	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
 	<script src="js/core/jquery-3.6.0.min.js"></script>
 	<script src="js/core/modernizr.js"></script>
 	<script src="js/core/bootstrap.bundle.js"></script>
