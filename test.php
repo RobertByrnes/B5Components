@@ -11,7 +11,6 @@
 </header>
 
 <div class="container-fluid mt-0">
-
     <!-- Card Row -->
     <div class="row d-flex px-3">
         <div class="card bg-ocean swing-less-hover">
@@ -45,32 +44,49 @@
             </div>
         </div>
     </div>
-</div>
 
-<div class="row d-flex justify-content-center mt-5">
-    <button type="button" class="btn btn-spruce col-3 swing-less swing-less-hover tunnel top" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        Launch static backdrop modal
-    </button>
-</div>
+    <div class="row d-flex justify-content-center mt-5">
+        <button type="button" class="btn btn-spruce col-3 swing-less swing-less-hover tunnel top" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Launch static backdrop modal
+        </button>
 
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header bg-fuschia text-light">
-                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-fuschia text-light">
+                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-grape tunnel top" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-spruce tunnel top">Understood</button>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-grape tunnel top" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-spruce tunnel top">Understood</button>
-            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center mt-5">
+            <button id="load" type="button" class="btn btn-spruce col-3 swing-less tunnel top">
+                Load
+            </button>
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function(){
+        $('#load').click(function(){
+            $('#fade-wrapper').fadeIn();
+        });
+        $('#fade-wrapper').click(function(){
+            $(this).fadeOut();
+        });
+    });
+</script>
 
 
 <?php include('pageconfig/footer.php'); ?>
