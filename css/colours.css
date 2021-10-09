@@ -37,29 +37,75 @@
 }
 /* Buttons */
 .btn-ocean {
-    color: #fff !important;
     background-color: #3670b4 !important;
     border-color: #3670b4 !important;
 }
 .btn-fuschia {
-    color: #fff !important;
     background-color: #d33a98 !important;
     border-color: #d33a98 !important;
 }
 .btn-grape {
-    color: #fff !important;
     background-color: #6b72cf !important;
     border-color: #6b72cf !important;
 }
 .btn-lemon {
-    color: #fff !important;
     background-color: #ccd135 !important;
     border-color: #ccd135 !important;
 }
 .btn-spruce {
-    color: #fff !important;
     background-color: #32c251 !important;
     border-color: #32c251 !important;
+}
+/* Outline Buttons */
+.btn-outline-ocean,
+.btn-outline-fuschia,
+.btn-outline-grape,
+.btn-outline-lemon,
+.btn-outline-spruce {
+    border-style: solid;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    background-color: transparent !important;
+}
+.btn-outline-ocean {
+    border: 2px solid #3670b4 !important;
+    border-color: #3670b4 !important;
+}
+.btn-outline-fuschia {
+    border: 2px solid #d33a98 !important;
+    border-color: #d33a98 !important;
+}
+.btn-outline-grape {
+    border: 2px solid #6b72cf !important;
+    border-color: #6b72cf !important;
+}
+.btn-outline-lemon {
+    border: 2px solid #ccd135 !important;
+    border-color: #ccd135 !important;
+}
+.btn-outline-spruce {
+    border: 2px solid #32c251 !important;
+    border-color: #32c251 !important;
+}
+.btn-outline-ocean:hover {
+    color: #fff !important;
+    background-color: #3670b4 !important;
+}
+.btn-outline-fuschia:hover {
+    color: #fff !important;
+    background-color: #d33a98 !important;
+}
+.btn-outline-grape:hover {
+    color: #fff !important;
+    background-color: #6b72cf !important;
+}
+.btn-outline-lemon:hover {
+    color: #fff !important;
+    background-color: #ccd135 !important;
+}
+.btn-outline-spruce:hover {
+    color: #fff !important;
+    background-color: #32c251 !important;
 }
 /* Scheme 1 */
 /* Backgrounds */
@@ -467,7 +513,7 @@
 .btn-blush, .btn-blush:hover,
 .btn-caffe, .btn-caffe:hover,
 .btn-tangerine, .btn-tangerine:hover {
-    color: #ffffff !important;
+    color: #ffffff;
 }
 .btn-peach, .btn-peach:hover,
 .btn-platinum, .btn-platinum:hover,
@@ -478,7 +524,7 @@
 .btn-concrete, .btn-concrete:hover,
 .btn-latte, .btn-latte:hover,
 .btn-turquoise, .btn-turquoise:hover {
-    color: #2c3531 !important;
+    color: #2c3531;
 }
 
 
