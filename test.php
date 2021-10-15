@@ -78,12 +78,12 @@
 </div>
 
 <script>
-    $(document).ready(function() {
-        $('#load').click(function() {
+    $(function() {
+        $('#load').on('click',function () {
             $(document).find('#wrapper').addClass("overlay");
             return false;
         });
-        $('#wrapper').click(function() {
+        $('#wrapper').on('click', function() {
             $('#wrapper').removeClass('overlay');
         });
     });

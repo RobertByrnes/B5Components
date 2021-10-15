@@ -213,9 +213,9 @@
 
     <div class="container">
         <!-- Large Buttons -->
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-4">
-                <button class="btn-nbs btn-mars wiggle-sm w-100">Mars Wiggle</button>
+                <button class="btn-outline-spruce  w-50">Spruce Outline</button>
             </div>
 
             <div class="col-4">
